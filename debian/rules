@@ -560,7 +560,6 @@ install: build
 	done
 
 	# install common files
-	install -m755 debian/maxlifetime debian/php5-common/usr/lib/php5
 
 	# install lintian overrides
 	cp debian/php5.lintian-overrides $(CURDIR)/debian/php5-common/usr/share/lintian/overrides/php5-common
