@@ -1,3 +1,9 @@
+php5 (5.3.6-8) unstable; urgency=low
+
+  * Removed weird debian patches
+
+ -- Hannes Magnusson <bjori@php.net>  Mon, 08 Apr 2011 23:01:25 +0100
+
 php5 (5.3.6-7) unstable; urgency=low
 
   * Disable SSLv2 when disabled in OpenSSL (Closes: #620776)
