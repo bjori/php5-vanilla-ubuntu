@@ -1,4 +1,4 @@
-php5 (5.3.6-8) unstable; urgency=low
+php5 (5.3.6-8) maverick; urgency=low
 
   * Removed weird debian patches
 
