@@ -1,7 +1,8 @@
 Source: php5
 Section: php
 Priority: optional
-Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Maintainer: Hannes Magnusson <bjori@php.net>
+XSBC-Original-Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Uploaders: Ondřej Surý <ondrej@debian.org>,
 	   Sean Finney <seanius@debian.org>,
 	   Thijs Kinkhorst <thijs@debian.org>,
