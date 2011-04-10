@@ -1,10 +1,16 @@
-php5 (5.3.6-9) maverick; urgency=low
+php5 (5.3.6-7ubuntu0ppa3) maverick; urgency=low
+
+  * Build (PDO_)MySQL(i) against MySQLnd
+
+ -- Hannes Magnusson <bjori@php.net>  Sun, 10 Apr 2011 13:44:07 +0200
+
+php5 (5.3.6-7ubuntu0ppa2) maverick; urgency=low
 
   * Fixed build by removing page size `fix'
 
  -- Hannes Magnusson <bjori@php.net>  Mon, 08 Apr 2011 23:01:25 +0100
 
-php5 (5.3.6-8) maverick; urgency=low
+php5 (5.3.6-7ubuntu0ppa1) maverick; urgency=low
 
   * Removed weird debian patches
 

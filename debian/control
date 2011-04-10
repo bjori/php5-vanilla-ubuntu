@@ -37,7 +37,6 @@ Build-Depends: apache2-prefork-dev,
 	       libmagic-dev,
 	       libmcrypt-dev,
 	       libmhash-dev (>= 0.8.8),
-	       libmysqlclient-dev | libmysqlclient15-dev,
 	       libonig-dev,
 	       libpam0g-dev,
 	       libpcre3-dev (>= 6.6),
@@ -59,7 +58,6 @@ Build-Depends: apache2-prefork-dev,
 	       libxml2-dev,
 	       libxslt1-dev (>= 1.0.18),
 	       locales-all | language-pack-de,
-	       mysql-server,
 	       netbase,
 	       netcat-traditional,
 	       quilt,
@@ -375,6 +373,8 @@ Description: MySQL module for php5
  to connect to all versions of MySQL, an improved "mysqli" module for
  MySQL version 4.1 or later, and the pdo_mysql module for use with
  the PHP Data Object extension.
+ .
+ NOTE: This package is built against mysqlnd!
  .
  PHP5 is a widely-used general-purpose scripting language that is
  especially suited for Web development and can be embedded into HTML.

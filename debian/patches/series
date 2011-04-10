@@ -27,7 +27,6 @@ libdb_is_-ldb
 #page_size_fixes.patch
 fix_broken_upstream_tests.patch
 use_embedded_timezonedb.patch
-force_libmysqlclient_r.patch
 gentoo/009_ob-memory-leaks.patch
 mssql-null-exception.patch
 sybase-alias.patch
