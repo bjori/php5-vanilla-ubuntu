@@ -1,8 +1,14 @@
+php5 (5.3.6-7ubuntu0ppa5) maverick; urgency=low
+
+  * Use the bundlet SQLite3, rather then depending on the system one 
+
+ -- Hannes Magnusson <bjori@php.net>  Sun, 10 Apr 2011 20:24:48 +0200
+
 php5 (5.3.6-7ubuntu0ppa4) maverick; urgency=low
 
   * Whoopsy. MySQLnd needs to be statically compiled into PHP 
 
- -- Hannes Magnusson <bjori@bjori>  Sun, 10 Apr 2011 18:00:12 +0200
+ -- Hannes Magnusson <bjori@php.net>  Sun, 10 Apr 2011 18:00:12 +0200
 
 php5 (5.3.6-7ubuntu0ppa3) maverick; urgency=low
 
