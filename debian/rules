@@ -302,6 +302,7 @@ configure-apache2filter-stamp: prepared-stamp
 	if [ -d apache2filter-build ]; then rm -rf apache2filter-build; fi
 	-mkdir apache2filter-build
 	cd apache2filter-build && \
+        PHP_MYSQLND_ENABLED=yes \
         CFLAGS="$(CFLAGS)" PROG_SENDMAIL="$(PROG_SENDMAIL)" ../configure \
 		--prefix=/usr --with-apxs2filter=/usr/bin/apxs2 \
 		--with-config-file-path=/etc/php5/apache2filter \
@@ -323,6 +324,7 @@ configure-cgi-stamp: prepared-stamp
 	if [ -d cgi-build ]; then rm -rf cgi-build; fi
 	-mkdir cgi-build
 	cd cgi-build && \
+        PHP_MYSQLND_ENABLED=yes \
         CFLAGS="$(CFLAGS)" PROG_SENDMAIL="$(PROG_SENDMAIL)" ../configure \
 		--prefix=/usr --enable-force-cgi-redirect --enable-fastcgi \
 		--with-config-file-path=/etc/php5/cgi \
@@ -344,6 +346,7 @@ configure-cli-stamp: prepared-stamp
 	if [ -d cli-build ]; then rm -rf cli-build; fi
 	-mkdir cli-build
 	cd cli-build && \
+        PHP_MYSQLND_ENABLED=yes \
         CFLAGS="$(CFLAGS)" PROG_SENDMAIL="$(PROG_SENDMAIL)" ../configure \
 		--prefix=/usr --disable-cgi \
 		--with-config-file-path=/etc/php5/cli \
@@ -365,6 +368,7 @@ configure-fpm-stamp: prepared-stamp
 	if [ -d fpm-build ]; then rm -rf fpm-build; fi
 	-mkdir fpm-build
 	cd fpm-build && \
+        PHP_MYSQLND_ENABLED=yes \
         CFLAGS="$(CFLAGS)" PROG_SENDMAIL="$(PROG_SENDMAIL)" ../configure \
 		--prefix=/usr --enable-fpm --disable-cgi \
 		--with-fpm-user=www-data --with-fpm-group=www-data \
