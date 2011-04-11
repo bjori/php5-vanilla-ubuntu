@@ -24,7 +24,6 @@ libtool2.2.patch
 libdb_is_-ldb
 fix_broken_upstream_tests.patch
 use_embedded_timezonedb.patch
-mssql-null-exception.patch
 sybase-alias.patch
 strcmp_null-OnUpdateErrorLog.patch
 fix_broken_5.3_tests.patch
