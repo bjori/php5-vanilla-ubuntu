@@ -2,7 +2,7 @@ php5 (5.3.6-8ubuntu0ppa1) maverick; urgency=low
 
   * Sync with debian
 
- -- Hannes Magnusson <bjori@php.net>  Sun, 10 Apr 2011 20:24:48 +0200
+ -- Hannes Magnusson <bjori@php.net>  Sun, 17 Apr 2011 12:17:09 +0200
 
 php5 (5.3.6-8) unstable; urgency=low
 
