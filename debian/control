@@ -21,7 +21,7 @@ Build-Depends: apache2-prefork-dev,
 	       libbz2-dev,
 	       libc-client-dev,
 	       libcurl4-openssl-dev | libcurl-dev,
-	       libdb4.8-dev | libdb4.6-dev,
+	       libdb-dev,
 	       libenchant-dev,
 	       libevent-dev (>= 1.4.11),
 	       libexpat1-dev (>= 1.95.2-2.1),
@@ -327,6 +327,8 @@ Package: php5-intl
 Architecture: any
 Depends: ${shlibs:Depends}, ${php:Depends}, ${misc:Depends}, php5-common (= ${binary:Version})
 Conflicts: php5-idn
+Replaces: php5-idn
+Provides: php5-idn
 Description: internationalisation module for php5
  This package provides a module to ease internationalisation of PHP scripts.
  .

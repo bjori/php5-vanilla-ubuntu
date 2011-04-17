@@ -1,3 +1,14 @@
+php5 (5.3.6-8ubuntu0ppa1) maverick; urgency=low
+
+  * Sync with debian
+
+ -- Hannes Magnusson <bjori@php.net>  Sun, 10 Apr 2011 20:24:48 +0200
+php5 (5.3.6-8) unstable; urgency=low
+
+  * Provides/Replaces/Conflicts: php5-idn (Closes: #547117)
+  * Build depend on libdb-dev (>= 5.1) (Closes: #621443)
+
+ -- Ondřej Surý <ondrej@debian.org>  Sun, 10 Apr 2011 23:27:44 +0200
 php5 (5.3.6-7ubuntu0ppa5) maverick; urgency=low
 
   * Use the bundlet SQLite3, rather then depending on the system one 
