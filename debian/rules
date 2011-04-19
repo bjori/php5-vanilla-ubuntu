@@ -255,7 +255,7 @@ configure-apache2-stamp: prepared-stamp
 		--with-curl=shared,/usr \
 		--with-enchant=shared,/usr \
 		--with-zlib-dir=/usr \
-		--with-gd=shared,/usr --enable-gd-native-ttf \
+		--with-gd=shared --enable-gd-native-ttf \
 		--with-gmp=shared,/usr \
 		--with-jpeg-dir=shared,/usr \
 		--with-xpm-dir=shared,/usr/X11R6 \

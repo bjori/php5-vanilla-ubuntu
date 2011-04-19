@@ -1,3 +1,10 @@
+php5 (5.3.6-8ubuntu0ppa2) maverick; urgency=low
+
+  * Build against the bundled GD lib, rather then external
+    Fixes missing gd functions such as imageantialias()
+
+ -- Hannes Magnusson <bjori@php.net>  Sun, 19 Apr 2011 08:50:09 +0200
+
 php5 (5.3.6-8ubuntu0ppa1) maverick; urgency=low
 
   * Sync with debian
