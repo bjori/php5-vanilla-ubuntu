@@ -288,7 +288,7 @@ configure-apache2-stamp: prepared-stamp
 		--with-pdo-mysql=shared,mysqlnd \
 		--with-pdo-odbc=shared,unixODBC,/usr \
 		--with-pdo-pgsql=shared,/usr/bin/pg_config \
-		--with-pdo-sqlite=shared \
+		--with-pdo-sqlite=shared,/usr \
 		--with-pdo-dblib=shared,/usr
 	cd apache2-build && \
 	cp ../Zend/zend_ini_scanner.c ../Zend/zend_language_scanner.c \
