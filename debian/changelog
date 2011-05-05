@@ -1,3 +1,9 @@
+php5 (5.3.6-8ubuntu0ppa4) lucid; urgency=low
+
+  * Fixed PHP5-FPM installation on lucid
+
+ -- Hannes Magnusson <bjori@php.net>  Sun, 05 May 2011 19:30:09 +0200
+
 php5 (5.3.6-8ubuntu0ppa3) maverick; urgency=low
 
   * Fixed PDO_SQLite (needs to be built against external sqlite)
