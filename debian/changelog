@@ -1,3 +1,9 @@
+php5 (5.3.6-8ubuntu0ppa7) natty; urgency=low
+
+  * Disable BDB until I can figureout why it doesn't work on natty
+
+ -- Hannes Magnusson <bjori@php.net>  Sun, 03 Jul 2011 21:17:00 +0200
+
 php5 (5.3.6-8ubuntu0ppa6) natty; urgency=low
 
   * Fixed Barkeley DB5.1 detection
